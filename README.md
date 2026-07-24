@@ -11,15 +11,20 @@ All notebooks are written for **Google Colab**.
 | Lab | Topic | Dataset | Result |
 |---|---|---|---|
 | [Lab 1](Lab%201/) | Perceptron implemented from scratch in NumPy | UCI Banknote Authentication | 98.55% accuracy |
+| [Lab 2](Lab%202/) | Feedforward neural network with hyperparameter tuning | Fashion-MNIST | 89.30% accuracy (optimized) |
 
 ## Structure
 
 ```
 Deep Learning Laboratory/
-└── Lab 1/
+├── Lab 1/
+│   ├── README.md
+│   ├── DeepLearning_Ex1.ipynb
+│   ├── data_banknote_authentication.txt
+│   └── Plots/
+└── Lab 2/
     ├── README.md
-    ├── DeepLearning_Ex1.ipynb
-    ├── data_banknote_authentication.txt
+    ├── DeepLearning_Ex2.ipynb
     └── Plots/
 ```
 
@@ -30,4 +35,4 @@ to [Google Colab](https://colab.research.google.com) and run all cells.
 
 ## Tools
 
-Python · NumPy · pandas · Matplotlib · seaborn · scikit-learn
+Python · NumPy · pandas · Matplotlib · seaborn · scikit-learn · TensorFlow/Keras
