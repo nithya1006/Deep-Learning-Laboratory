@@ -8,7 +8,7 @@ compared against a hyperparameter-optimized version.
 | File | Description |
 |---|---|
 | `DeepLearning_Ex2.ipynb` | Source code — all tasks in one notebook |
-| `Plots/` | Output figures (8 PNGs) and the comparison CSV |
+| `Plots/` | Output figures (8 PNGs) |
 
 ## Dataset
 
@@ -86,7 +86,3 @@ dropout 0.0, `sigmoid` activation, 30 epochs, batch size 32.
 | Recall | 0.8831 | 0.8930 |
 | F1-score | 0.8818 | 0.8924 |
 | Training time (s) | 37.56 | 106.02 |
-
-Shirt is the hardest class in both models, mainly confused with T-shirt,
-Pullover and Coat. No seed is set for TensorFlow, so a rerun will land close to
-but not exactly on these numbers.
