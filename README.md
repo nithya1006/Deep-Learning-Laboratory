@@ -12,6 +12,7 @@ All notebooks are written for **Google Colab**.
 |---|---|---|---|
 | [Lab 1](Lab%201/) | Perceptron implemented from scratch in NumPy | UCI Banknote Authentication | 98.55% accuracy |
 | [Lab 2](Lab%202/) | Feedforward neural network with hyperparameter tuning | Fashion-MNIST | 89.30% accuracy (optimized) |
+| [Lab 3](Lab%203/) | Convolutional neural network for image classification | CIFAR-10 | 67.84% test accuracy |
 
 ## Structure
 
@@ -22,12 +23,15 @@ Deep Learning Laboratory/
 │   ├── DeepLearning_Ex1.ipynb
 │   ├── data_banknote_authentication.txt
 │   └── Plots/
-└── Lab 2/
+├── Lab 2/
+│   ├── README.md
+│   ├── DeepLearning_Ex2.ipynb
+│   └── Plots/
+└── Lab 3/
     ├── README.md
-    ├── DeepLearning_Ex2.ipynb
+    ├── DeepLearning_Ex3.ipynb
     └── Plots/
 ```
-
 ## Getting Started
 
 Open the folder for the lab you want, read its README, then upload the notebook
