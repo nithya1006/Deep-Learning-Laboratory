@@ -13,6 +13,7 @@ All notebooks are written for **Google Colab**.
 | [Lab 1](Lab%201/) | Perceptron implemented from scratch in NumPy | UCI Banknote Authentication | 98.55% accuracy |
 | [Lab 2](Lab%202/) | Feedforward neural network with hyperparameter tuning | Fashion-MNIST | 89.30% accuracy (optimized) |
 | [Lab 3](Lab%203/) | Convolutional neural network for image classification | CIFAR-10 | 67.84% test accuracy |
+| [Lab 4](Lab%204/) | Transfer learning and comparison of CNN architectures | CIFAR-10 | 70.52% test accuracy (VGG16, fine tuned) |
 
 ## Structure
 
@@ -27,9 +28,13 @@ Deep Learning Laboratory/
 │   ├── README.md
 │   ├── DeepLearning_Ex2.ipynb
 │   └── Plots/
-└── Lab 3/
+├── Lab 3/
+│   ├── README.md
+│   ├── DeepLearning_Ex3.ipynb
+│   └── Plots/
+└── Lab 4/
     ├── README.md
-    ├── DeepLearning_Ex3.ipynb
+    ├── DeepLearning_Ex4.ipynb
     └── Plots/
 ```
 ## Getting Started
